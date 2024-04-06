@@ -1,4 +1,6 @@
-const catGifs = ["peachsit.gif", "gomaphone.gif", "peachboba.gif", "gomasilly.gif", "cooking.jpeg"];
+import images from "./imag.js"
+
+const catGifs = images;
 let currentCatIndex = 0;
 let buttonClicked = false;
 

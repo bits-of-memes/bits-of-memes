@@ -101,18 +101,18 @@ body {
 
 
 #gif-container {
-    width: 95%; /* Adjusted from 70% to 95% to fill more of the profile card */
-    height: auto; /* Adjust height as needed, or use auto to maintain aspect ratio of the content */
-    margin: 2% auto; /* Center the container and provide a small margin from the top and bottom */
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    width: 90%; 
+    height: auto; 
+    margin: 2% auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 #gif-container img {
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain the aspect ratio */
-    object-fit: contain; /* Ensure the entire image is visible, adjust as necessary */
+    width: 100%; 
+    height: auto;
+    object-fit: contain;
 }
 
 .hidden {

@@ -62,10 +62,6 @@ nav a {
     border-bottom: 2px solid transparent;
 }
 
-nav a.active, nav a:hover {
-    border-bottom: 2px solid #333;
-}
-
 .profile {
     text-align: center;
 }

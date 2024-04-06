@@ -1,25 +1,25 @@
 import images from "./imag.js"
 
-const catGifs = images;
+const memesOrGifs = images;
 let currentCatIndex = 0;
 let buttonClicked = false;
 
 function toggleCatGif() {
-    currentCatIndex = (currentCatIndex + 1) % catGifs.length;
+    currentCatIndex = (currentCatIndex + 1) % memesOrGifs.length;
     const gifContainer = document.getElementById('gif-container');
-    const catGif = document.getElementById('cat-gif');
-    catGif.src = catGifs[currentCatIndex];
+    const catGif = document.getElementById('meme-gif');
+    catGif.src = memesOrGifs[currentCatIndex];
     gifContainer.classList.remove('hidden');
 
-    // Hide the hearts when the button is clicked
-    const hearts = document.querySelector('.hearts');
+    // hide start screen once event button is clicked
+    const start = document.querySelector('.start');
     if (!buttonClicked) {
-        hearts.classList.add('hidden');
+        start.classList.add('hidden');
         const buttonIcon = document.querySelector('.button-icon');
         buttonIcon.textContent = 'click for more goofy meme :3';
         buttonClicked = true;
     }
 }
 
-// Event listener for the button
+// event listener for the button
 document.querySelector('.button-icon').addEventListener('click', toggleCatGif);

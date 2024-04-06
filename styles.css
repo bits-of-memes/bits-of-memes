@@ -75,15 +75,6 @@ nav a.active, nav a:hover {
     
 }
 
-.profile-picture {
-    width: 150px;
-    height: 150px;
-    border: 3px solid #333;
-    border-radius: 50%;
-    margin-bottom: 10px;
-    z-index: 1;
-}
-
 .button {
     text-align: center;
     margin-top: 20px;
@@ -102,7 +93,7 @@ nav a.active, nav a:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-.hearts {
+.start {
     text-align: center;
     margin-top: 20px;
     font-size: 0.8em;

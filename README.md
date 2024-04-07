@@ -1,5 +1,8 @@
 # Bits of Memes!
 
+https://github.com/bits-of-memes/memes/assets/114116509/0e7ada88-5524-441c-abc6-e3d0e7bb21a0
+
+
 ## Inspiration
 we wanted to make a project that made people laugh
 

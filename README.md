@@ -1,3 +1,5 @@
+# Bits of Memes!
+
 ## Inspiration
 we wanted to make a project that made people laugh
 

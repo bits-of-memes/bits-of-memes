@@ -11,6 +11,9 @@ function toggleCatGif() {
     catGif.src = memesOrGifs[currentCatIndex];
     gifContainer.classList.remove('hidden');
 
+
+    
+
     // hide start screen once event button is clicked
     const start = document.querySelector('.start');
     if (!buttonClicked) {
